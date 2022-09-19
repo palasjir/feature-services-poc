@@ -14,7 +14,21 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@poc/features/feature-analyse": [
+        "libs/features/feature-analyse/src/index.tsx"
+      ],
+      "@poc/features/feature-entity-detail": [
+        "libs/features/feature-entity-detail/src/index.tsx"
+      ],
+      "@poc/services/analyse-feature-service": [
+        "libs/services/analyse-feature-service/src/index.ts"
+      ],
+      "@poc/services/entity-detail-feature-service": [
+        "libs/services/entity-detail-feature-service/src/index.ts"
+      ],
+      "@poc/webapp-core": ["libs/webapp-core/src/index.tsx"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

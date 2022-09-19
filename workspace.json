@@ -2,7 +2,12 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "features-feature-analyse": "libs/features/feature-analyse",
+    "features-feature-entity-detail": "libs/features/feature-entity-detail",
     "frontend": "apps/frontend",
-    "frontend-e2e": "apps/frontend-e2e"
+    "frontend-e2e": "apps/frontend-e2e",
+    "services-analyse-feature-service": "libs/services/analyse-feature-service",
+    "services-entity-detail-feature-service": "libs/services/entity-detail-feature-service",
+    "webapp-core": "libs/webapp-core"
   }
 }
