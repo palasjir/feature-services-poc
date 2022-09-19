@@ -1,9 +1,9 @@
-import styled from 'styled-components';
-import { AnalyseFeatureService } from '@poc/services/analyse-feature-service';
-import { EntityDetailStore } from './EntityDetailStore';
 import { useEffect } from 'react';
 import { observer } from 'mobx-react';
-import { useFeatureService } from '../../../../../webapp-core/src/feature-services';
+import styled from 'styled-components';
+import { useFeatureService } from '@poc/webapp-core';
+import { AnalyseFeatureService } from '@poc/services/analyse-feature-service';
+import { EntityDetailStore } from './EntityDetailStore';
 
 
 const StyledFeaturesFeatureEntityDetail = styled.div`

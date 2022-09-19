@@ -1,9 +1,8 @@
-import styled from 'styled-components';
 import { observer } from 'mobx-react';
+import styled from 'styled-components';
+import { useFeatureService, useIsFeatureRegistered } from '@poc/webapp-core';
 import { EntityDetailFeatureService } from '@poc/services/entity-detail-feature-service';
 import { AnalyseEntityRepresentation, AnalyseStore } from './AnalyseStore';
-import { useFeatureService } from '../../../../../webapp-core/src/feature-services';
-import { useIsFeatureRegistered } from '../../../../../webapp-core/src/hooks';
 
 const StyledFeaturesFeatureAnalyse = styled.div`
   background: pink;
